@@ -1,0 +1,660 @@
+* {
+    padding: 0 ;
+    margin: 0 ; 
+
+}
+nav {
+    background-color: #6b021d;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav img {
+    height: 75px;
+    padding: 15px;
+}
+/* nav ul{
+    margin-top: 27px;
+} */
+nav ul li {
+    display: inline;
+    margin: 15px;   
+}
+nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Rubik, sans-serif;
+    font-weight: bold;
+}
+.navbar{
+    display: none; 
+}
+
+
+a.active, a:hover{
+    color: #E09412;
+}
+
+#b1,#b2{
+    width: 100px;
+    height: 45px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 17px;
+    border: 2px solid #eea412 ;
+    border-radius: 1px;
+}
+
+.navbars{
+    background-color: white;
+    width: 40px;
+    height: 30px ;
+    text-align: center;
+    display: none;
+    
+}
+
+
+.firstpage{
+    background: rgba(0, 0, 0, 0.523)  url(img/poor1.jpg);
+    background-blend-mode: darken;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+   
+   
+    
+}
+ 
+.firstpage h1{
+    font-size: 70px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15%;
+
+}
+span{
+    font-size: 70px;
+    color: #eea412;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.firstpage p{
+    padding-top: 3%;
+    color: white;
+    font-size: 25px;
+    font-family:  sans-serif;
+}
+
+#b3{
+    width: 140px;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 17px;
+    background-color:  #eea412;
+    border-radius: 1px;  
+    margin-top: 15px;
+    border: none;
+    margin-right: 10px; 
+}
+#b3:hover{
+    background-color: white;
+    color: blue;
+}
+.secondpage{
+    background-color: white;
+    height: 120vh;
+}
+
+.secondpage h1{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+     padding-top: 5%; 
+    
+}
+
+.first-content h2, .second-content h2{
+    font-size: 38px;
+    font-weight: 300;
+    
+    
+}
+.secondpage h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+.first-content p{
+    padding-top: 1%;
+    font-size: 20px;
+    font-weight: 400;
+}
+.second-content p{
+    padding-top: 1%;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+ .secondpage img{
+width: 40%;
+margin-top: 40px;
+padding-left: 10%;
+} 
+
+.first-content img{
+    width: 50%;
+    margin-right: 6%;
+}
+
+.first-content{
+   padding-top: 5%;
+   margin-left: 10%;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   display: flex;
+}
+.second-content{     
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+} 
+ .second-content img{
+   height: 35vh;
+   width: 40%;
+} 
+.second-element{
+    padding-left: 10%;
+    margin-top: 5%;
+}
+
+.third-page{
+    background: url(img/feeding.jpg) no-repeat fixed  ;
+    
+    height: 120vh;
+}
+
+.third-page h1{
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    padding-top: 7%;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+padding-top: 5%;
+}
+.box1{
+border:2px solid white;
+height: 80vh;
+width: 25%;
+text-align: center;
+
+
+}
+.box2{
+border:2px solid white;
+height: 80vh;
+width: 25%;
+text-align: center;
+
+}
+.box3{
+border:2px solid white;
+height: 80vh;
+width: 25%;
+text-align: center;
+}
+ .b6, .b7{
+    margin-top: 10%;
+    border:2px solid #eea412;
+    width: 200px;
+    height: 40px;
+    text-transform: capitalize;
+    color: white;
+    background-color: rgb(72, 68, 68);
+    
+}
+.b5{
+    margin-top: 18%;
+    border:2px solid #eea412;
+    width: 200px;
+    height: 40px;
+    text-transform: capitalize;
+    color: white;
+    background-color: rgb(72, 68, 68);
+}
+ .b7:hover{
+    background-color: #eea412;
+    color: black;
+
+}
+ .b6:hover{
+    background-color: #eea412;
+    color: black;
+
+}
+ .b5:hover{
+    background-color: #eea412;
+    color: black;
+
+}
+.container p{
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 25px;
+text-align: center;
+}
+
+.fourth-page{
+    background-color: white;
+    height: 120vh;
+
+}
+.fourth-page h1{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 40px;
+text-align: center;
+margin-top: 7%;
+margin-bottom: 7%;
+}
+.card-container{
+display: flex;
+justify-content: center;
+gap: 20px;
+padding-top: 1%;
+
+}
+
+.card1{
+background-color:whitesmoke;
+ height: 85vh;
+width: 30%; 
+text-align: center;
+padding-top: 1%;
+
+}
+.card2{
+background-color: whitesmoke;
+ height: 85vh;
+ width: 30%;  
+text-align: center;
+padding-top: 1%;
+
+}
+.card3{
+background-color: whitesmoke;
+ height: 85vh;
+ width: 30%; 
+text-align: center;
+padding-top: 1%;
+
+}
+
+.card1 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    padding: 5%  5%;
+    padding-right: 120px;
+}
+.card2 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    padding: 5%  5%;
+    padding-right: 120px;
+    
+}
+.card3 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    padding-top: 5%;
+    padding-right: 100px;
+}
+.card1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+.card2 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+.card3 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    padding-top: 5%;
+    font-size: 14px;
+}
+
+.card-container button{
+  height: 35px;
+  width: 40%;
+  background-color: rgb(72, 68, 68);
+  color: white;
+  text-transform: uppercase;
+  border:1px solid #eea412;
+  margin-top: 15px;
+ 
+
+}
+
+.card-container button:hover{
+        background-color: #eea412;
+        color: black;
+}
+
+.last-page{
+    background-image: url(img/feeding.jpg);
+    height: 120vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.last-page h1{
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile-container{
+    display: flex;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 4%;
+    margin-left: 100px;
+}
+
+
+
+.profile-container h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding-top: 5%;
+}
+
+.profile-container p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    padding-top: 3%;
+    font-weight: 500;
+}
+footer{
+    background-color: rgb(76, 90, 125);
+    height: 80vh;
+    
+   
+}
+.column-container{
+    display: flex;
+    justify-content: center;
+    padding-right: 15%;
+    gap: 20px;
+    padding-top: 8%;
+  
+
+}
+.column-container h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.copywrite{
+    background-color: black;
+    opacity: 0.9;
+    height: 10vh;
+    padding-top: 10px 0px;
+   
+}
+
+.copywrite p{
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    padding-top: 2%;
+}
+ 
+.column-container p, ul{
+    color: white;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.column-container  ul li{
+    list-style: none;
+    padding: 5px 0px;
+
+}
+.column3 {
+    padding-left: 15%;
+}
+
+@media only screen and (max-width: 768px) {
+   /* *{
+    margin: 0 ;
+    padding: 0 ;
+   } */
+    nav{
+        height: 15vh;
+        width: auto;
+    }
+    nav img { 
+    height: 60px;
+    width: 150px; 
+    padding: 5px;
+    }
+    #toggler{
+        text-align: center;
+        margin-top: 8px;
+    }
+    .navbars{
+       margin-right: 5%;
+       height: 30%;
+       width: 10%;
+    }
+    nav ul li {
+        margin: auto;
+        display: none;
+        
+    }
+   
+    .firstpage{
+        height: 100% !important;
+         width: 100%;
+         background: rgba(0, 0, 0, 0.523)  url(img/poor1.jpg);
+         background-blend-mode: darken;
+         background-repeat: no-repeat;
+         background-position: center;
+         background-size: cover;
+         text-align: center;
+    }
+    .firstpage h1,span{
+        padding-top: 60%;
+        font-size: 60px;
+        margin-left: 0;
+    }
+    .firstpage p{
+        font-size: 15px;
+        padding-right: 10%;
+    }
+    #b3{
+    width: 140px;
+    height: 60px;
+    }
+    .secondpage h1{
+        font-size: 35px;
+        margin:0 0 0 25px;
+    }
+    .first-content{
+        display: block;
+    }
+
+    .secondpage{
+        height: 180vh;
+        margin-left: 0 !important;
+    }
+   
+.first-content h2{
+    font-size: 50px;
+    font-weight: 300;
+  
+}
+.first-content img{
+   height: 7%;
+   width: 80%;
+   padding-left: 10%;
+}
+.first-content p{
+    padding-top: 1%;
+    font-size: 20px;
+    font-weight: 400;
+}
+.second-content p{
+    padding-top: 1%;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.second-content{
+   display: block;
+   justify-content: center;
+   padding-top: 10%;
+ 
+}
+.second-content img{
+    height: 10%;
+    width: 80%;
+ }
+.third-page{
+    background: url(img/feeding.jpg) fixed;
+    height: 270vh !important;
+    width: 100%;
+}
+
+
+ .container{
+    display: block;
+    padding-left: 10%;
+    height: 250vh;
+   
+ }
+ .box1{
+    width: 35vh;
+ }
+ .box2{
+    width: 35vh;
+ }
+ .box3{
+    width: 35vh;
+    height: 60vh;
+ }
+ .fourth-page{
+    height: 280vh;
+    margin-left: unset;
+ }
+
+ 
+
+ .card-container{
+    display: block;
+    margin-left: 0;
+    /* padding-left: 10%; */
+ }
+ .card1 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+     padding: 5% 5%; 
+     text-align: center; 
+     padding-right: 120px;
+} 
+ .card2 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    padding: 5% 5%;
+    text-align: center;
+    padding-right: 120px;
+}
+
+ /* .card3 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    padding: 5% 5%;
+    text-align: center;
+    padding-right: 120px;
+} */
+
+
+.card1{
+    background-color:whitesmoke;
+     height: 85vh;
+    width: 95%; 
+    text-align: center;
+    padding-top: 1%;
+    
+    }
+.card2{
+    background-color:whitesmoke;
+     height: 85vh;
+    width: 95%; 
+    text-align: center;
+    padding-top: 1%;
+    
+    }
+.card3{
+    background-color:whitesmoke;
+     height: 85vh;
+    width: 95%; 
+    text-align: center;
+    padding-top: 1%;
+    
+    }
+    .last-page{
+        background: url(img/feeding.jpg) fixed;
+        height: auto;
+        width: 100%;
+         object-fit: cover; 
+    }
+    .profile-container{
+        display: block;
+        margin-left: unset;
+    }
+
+    .profile1 img{
+        height: 50%;
+        width: 80%;
+      
+    }
+    .profile2 img{
+        height: 50%;
+        width: 80%;
+    }
+    .profile3 img{
+        height: 50%;
+        width: 80%;
+    }
+   
+    footer{
+        height: auto;
+        width: 100%;
+        margin-left: unset;
+    }
+
+    .column-container{
+        display: block;
+        
+    }
+}
